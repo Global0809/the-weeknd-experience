@@ -1,0 +1,1 @@
+var e=new EventTarget;function t(t,n){return e.addEventListener(t,n),()=>e.removeEventListener(t,n)}function n(){e.dispatchEvent(new Event(`menu:opened`))}function r(){e.dispatchEvent(new Event(`menu:closed`))}export{n,t as r,r as t};

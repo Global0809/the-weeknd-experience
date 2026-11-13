@@ -1,0 +1,16 @@
+{
+  "name": "The Weeknd · Enter the Night",
+  "short_name": "The Weeknd",
+  "lang": "en",
+  "start_url": "/the-weeknd-experience/",
+  "display": "standalone",
+  "background_color": "#010101",
+  "theme_color": "#010101",
+  "icons": [
+    {
+      "src": "/the-weeknd-experience/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

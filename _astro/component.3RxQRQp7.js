@@ -1,0 +1,1 @@
+import{t as e}from"./lenisSingleton.0mupUKGg.js";import{t}from"./react.Cq4ubQsR.js";var n=t(),r=()=>((0,n.useEffect)(()=>{e()},[]),null);export{r as default};

@@ -1,0 +1,50 @@
+{
+  "fuente": "local",
+  "eventos": [
+    {
+      "id": "after-hours",
+      "nombre": "After Hours",
+      "fecha": "20.03.2020",
+      "fechaLarga": "March 20, 2020",
+      "hora": "",
+      "horaFin": "",
+      "diaSemana": "ALBUM",
+      "descripcion": [
+        "The Weeknd · 2020"
+      ],
+      "url": "https://music.apple.com/us/album/after-hours/1499378108?uo=4",
+      "imagen": "/the-weeknd-experience/assets/posters/after-hours.webp",
+      "imagenPagina": "/the-weeknd-experience/assets/albums/after-hours.jpg"
+    },
+    {
+      "id": "dawn-fm",
+      "nombre": "Dawn FM",
+      "fecha": "07.01.2022",
+      "fechaLarga": "January 7, 2022",
+      "hora": "",
+      "horaFin": "",
+      "diaSemana": "ALBUM",
+      "descripcion": [
+        "The Weeknd · 2022"
+      ],
+      "url": "https://music.apple.com/us/album/dawn-fm/1603171516?uo=4",
+      "imagen": "/the-weeknd-experience/assets/posters/dawn-fm.webp",
+      "imagenPagina": "/the-weeknd-experience/assets/albums/dawn-fm.jpg"
+    },
+    {
+      "id": "hurry-up-tomorrow",
+      "nombre": "Hurry Up Tomorrow",
+      "fecha": "31.01.2025",
+      "fechaLarga": "January 31, 2025",
+      "hora": "",
+      "horaFin": "",
+      "diaSemana": "ALBUM",
+      "descripcion": [
+        "The Weeknd · 2025"
+      ],
+      "url": "https://music.apple.com/us/album/hurry-up-tomorrow/1793654348?uo=4",
+      "imagen": "/the-weeknd-experience/assets/posters/hurry-up-tomorrow.webp",
+      "imagenPagina": "/the-weeknd-experience/assets/albums/hurry-up-tomorrow.jpg"
+    }
+  ]
+}

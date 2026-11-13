@@ -1,0 +1,1 @@
+var e=[1500,4e3,8e3];async function t(t,n,r=e){let i=await t();for(let e of r){if(n(i))return i;await new Promise(t=>setTimeout(t,e)),i=await t()}return i}export{t};

@@ -1,0 +1,1 @@
+function e(e){return typeof window>`u`?!1:(e??window.innerWidth)<=767||window.matchMedia(`(pointer: coarse)`).matches}function t(t){let n=window.innerWidth,r=e(n),i=()=>{let i=window.innerWidth,a=e(i);if((a||r)&&i===n){r=a;return}n=i,r=a,t()};return window.addEventListener(`resize`,i),()=>window.removeEventListener(`resize`,i)}export{t as n,e as t};
