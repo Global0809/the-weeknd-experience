@@ -4,7 +4,9 @@ An independent creative presentation adapted from the author's Hoyo Jerez websit
 
 ## Run locally
 
-Public GitHub Pages edition: [Open Enter the Night](https://global0809.github.io/the-weeknd-enter-the-night/).
+Restored public GitHub Pages edition: [Open Enter the Night](https://global0809.github.io/the-weeknd-experience/).
+
+This independent copy restores the original artist-branded experience from commit `52030dd53f9843a3ec3b003c83d8fb03f487c964`. MONUMENTAL remains live at its existing address. This copy has no native Sites project binding; deploy it through GitHub Pages.
 
 Requires Node.js 20.11 or later. No runtime package installation is needed.
 
@@ -17,7 +19,7 @@ Open http://127.0.0.1:4175 . Use an HTTP server; opening index.html directly wit
 
 ## GitHub Pages
 
-Run `npm run build:pages` to produce `pages-out/` for the repository path `/the-weeknd-enter-the-night/`. This deployment build adapts URLs and routing for that path and includes `.nojekyll`. The `gh-pages` branch contains the published static files; Pages serves that branch from its root. To update the public site, rebuild and publish the contents of `pages-out/` to `gh-pages`.
+Run `npm run build:pages` to produce `pages-out/` for the repository path `/the-weeknd-experience/`. This deployment build adapts URLs and routing for that path and includes `.nojekyll`. The `gh-pages` branch contains the published static files; Pages serves that branch from its root. To update the public site, rebuild and publish the contents of `pages-out/` to `gh-pages`.
 
 ## Explore
 
@@ -39,7 +41,7 @@ A sixty-second recording is available at `/preview.html` for a quick, shareable 
 - `scripts/check.mjs`: JavaScript syntax, language metadata, zoom, and content checks.
 - `scripts/check-media-ranges.mjs`: verifies media ranges, validators, missing files, and HEAD responses.
 - `scripts/serve.mjs`: local server with correct media MIME types and byte-range support.
-- `.openai/hosting.json`: Site identity and deployment configuration.
+- `.openai/hosting.json`: unbound native-hosting placeholder; production uses GitHub Pages.
 - `source/assets/media-sources.json`: official image, artwork, and link provenance.
 - `source/assets/audio/playlist.json`: preview track names, sources, and chapter timings.
 - `source/assets/media/video-sources.json`: official preview sources and the video-loop rendering manifest.

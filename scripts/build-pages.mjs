@@ -9,7 +9,7 @@ await import('./build.mjs');
 const root = path.resolve(import.meta.dirname, '..');
 const target = path.join(root, 'pages-out');
 const marker = path.join(target, '.weeknd-pages-generated');
-const base = process.env.PAGES_BASE_PATH ?? '/the-weeknd-enter-the-night/';
+const base = process.env.PAGES_BASE_PATH ?? '/the-weeknd-experience/';
 const origin = (process.env.PAGES_ORIGIN ?? 'https://global0809.github.io').replace(/\/$/, '');
 if (!/^\/(?:[A-Za-z0-9_-]+\/)+$/.test(base)) throw Error('PAGES_BASE_PATH must be a slash-delimited project path');
 if (new URL(origin).origin !== origin || !origin.startsWith('https://')) throw Error('PAGES_ORIGIN must be an HTTPS origin');
